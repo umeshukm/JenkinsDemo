@@ -3,9 +3,8 @@ node{
 		echo "Building"
 		echo "PATH = ${PATH}"
 		bat "dir"
-		steps{
-			bat 'mvn clean package'
-		}
+		bat "cd C:\Users\ukmah\Desktop\demo\JenkinsDemo" 
+		bat "mvn clean package"
 	}
 	stage('Test'){
 		echo "Testing"
