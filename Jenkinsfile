@@ -1,5 +1,5 @@
 node{
-	stages('Build'){
+	stage('Build'){
 		echo "Building"
 		echo "PATH = ${PATH}"
 		bat "dir"
