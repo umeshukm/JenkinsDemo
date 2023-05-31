@@ -2,7 +2,7 @@ node{
 	stage('Build'){
 		echo "Building"
 		echo "PATH = ${PATH}"
-		bat "mvn clean package"
+		bat "dir"
 	}
 	stage('Test'){
 		echo "Testing"
