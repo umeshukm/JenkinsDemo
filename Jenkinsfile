@@ -4,7 +4,7 @@ node{
 		echo "PATH = ${PATH}"
 		bat "dir"
 		stage {
-		bat "cd C:\\Users\\ukmah\\Desktop\\demo\\JenkinsDemo\\"
+		bat "git clone https://github.com/umeshukm/JenkinsDemo.git"
 		bat "mvn clean package"
 		}
 	}
