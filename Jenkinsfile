@@ -1,7 +1,7 @@
 node{
 	stage('Build'){
 		echo "Building"
-		mvn clean install
+		sh 'mvn clean install'
 	}
 	stage('Test'){
 		echo "Testing"
