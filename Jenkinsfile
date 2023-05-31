@@ -4,7 +4,7 @@ node{
 		echo "PATH = ${PATH}"
 		bat "dir"
 		steps{
-			bat 'mvn -BskipTests clean package'
+			bat 'mvn clean package'
 		}
 	}
 	stage('Test'){
